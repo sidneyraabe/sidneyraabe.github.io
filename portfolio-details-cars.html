@@ -100,7 +100,7 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-8">
+          <div class="col-lg-7">
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
 
@@ -121,63 +121,49 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-lg-5">
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
                 <li><strong>Category</strong>: Web Application</li>
-                <li><strong>Project date</strong>: January, 2022</li>
+                <li><strong>Project date</strong>: November 2021 - January 2022</li>
                 <li><strong>Project URL</strong>: <a
                     href="https://github.com/sidneyraabe/projectSamples">GuildCarMastery</a></li>
+                <li><strong>Technologies Used</strong>: </li>
+                <li>.NET Framework<br />
+                  ASP.NET MVC<br />
+                  Web API <br />
+                  C# and Razor syntax <br />
+                  AJAX <br />
+                  ADO.NET <br />
+                  LINQ <br />
+                  T-SQL<br />
+                  NUnit</li>
               </ul>
             </div>
             <div class="portfolio-description">
-              <p>
-                This project is the culmination of all my study in The Software Guild's coding bootcamp.
-              </p>
-              <p>
-                This is a web application for a car dealership. The main focus is on the customer interface, which
-                allows for querying used and new car listings, viewing specials, viewing details, and contact forms.
-              </p>
-              <p>Also included are sales tools for dealership employees to add, edit, and delete used and new car
-                listings, and access to purchase forms.</p>
-              <p>
-              <p>Admin tools are also provided, which allows for adding car models and manufacturers (when added are
-                listed in the corresponding model or make dropdowns in the new/edit listings forms).
-              </p>
-              <p>Lastly, reports tools are provided. Inventory reports list cumulative data
-                for all active listings, and the sales reports allow for querying the performance of all sales accounts.
-              </p>
-
-
-              <b>
-                Features:</b>
+              <p>This is a web app for a vehicle dealership's retail inventory system.</p>
               <ul>
-                <li>ASP.NET</li>
-                <li>Bootstrap</li>
-                <li>AJAX</li>
-                <li>ADO.NET</li>
-                <li>Web Api</li>
-                <li>Test-driven development (NUnit)</li>
-                <li>N-tier architecture</li>
-                <ul>
-                  <li>UI</li>
-                  <li>Data Layer</li>
-                  <li>Models</li>
-                  <li>Test Project</li>
-                </ul>
-                <li>Dependency injection to switch between mock and SQL repositories</li>
-                <li>SQL Database and sprocs</li>
+                <li>Drafted and designed a database schema and a SQL database to store inventory, user information, and
+                  form data</li>
+                <li>Built an ASP.NET MVC server back-end to handle server-side logic, including database interactions
+                  and data validation, and a first-party Web API to provide inventory data access to the front-end</li>
+                <li>Created a web interface allowing customers to browse vehicle inventory by querying price range or
+                  keyword, view vehicle detail pages, and send requests for more information, and for employees to
+                  submit
+                  purchase forms and view sales reports</li>
 
+                <li>Conducted extensive unit testing using NUnit to verify accuracy of database queries and business
+                  logic
+                  of the application throughout development</li>
+                <li>Implemented stored procedures with ADO.NET SQL parameters to secure data from SQL injection attacks
+                </li>
               </ul>
-              <b>
-                Improvements:</b>
-                <p>Sacrifices were made in order to reach project deadlines. To fix:</p>
-              <ul>
-                <li>Implement ASP.NET Identity to handle user logins/permissions</li>
-                <li>Beautify that ugly and plain-looking UI</li>
-              </ul>
+              <p>The hardest challenge of this project was implementing dynamic dropdown options for car models based on the selected car make.
+                To do this, I used jQuery, AJAX, and Razor syntax to make an HTTP request and retrieve the relevent data from the database.
+                Through this process, I gained a better understanding of HTML dropdown implementation with Razor.
               </p>
+
             </div>
           </div>
 
