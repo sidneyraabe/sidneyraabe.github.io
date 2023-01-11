@@ -68,9 +68,9 @@
           </li>
           <li><a href="index.html#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i>
               <span>Resume</span></a></li>
-              <li><a href="index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
-                <span>Developer Portfolio</span></a></li>
-            <!--<li><a href="index.html#music" class="nav-link scrollto"><i class="bx bxs-playlist"></i><span>My Music</span></a></li>-->
+          <li><a href="index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
+              <span>Developer Portfolio</span></a></li>
+          <!--<li><a href="index.html#music" class="nav-link scrollto"><i class="bx bxs-playlist"></i><span>My Music</span></a></li>-->
           <!-- <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li> -->
         </ul>
       </nav><!-- .nav-menu -->
@@ -124,28 +124,31 @@
                 <li><strong>Project date</strong>: September 2021 - October 2021</li>
                 <li><strong>Project URL</strong>: <a href="https://github.com/sidneyraabe/projectSamples">DVD
                     Library</a></li>
+                <li><strong>Technologies Used</strong>: </li>
+                <li>.NET Framework<br />
+                  ASP.NET Web API<br />
+                  C#<br />
+                  AJAX <br />
+                  ADO.NET <br />
+                  LINQ <br />
+                  T-SQL</li>
               </ul>
             </div>
             <div class="portfolio-description">
               <p>
-                This is code for a web service, SQL database, and a seperate
-                HTML/javascript project as an interface for a DVD library application.
+                This project is supplied in three parts. A SQL database, web API, and a separate HTML view for a DVD library application. 
               </p>
-              <p><b>
-                  Features:</b>
-                  <ul>
-                    <li>Bootstrap</li>
-                    <li>AJAX</li>
-                    <li>ADO.NET</li>
-                    <li>Dependency injection to switch between mock and SQL repositories</li>                  
-                    <li>DVD creation, editing, searching, and deletion</li>
-                  </ul>
-                  <b>
-                    Improvements:</b>
-                    <ul>
-                      <li>Search strings are a little too strict; modify search sprocs</li>
-              </p>
-
+              <ul>
+                <li>Engineered SQL database to store inventory, and stored procedures for CRUD functions</li>
+                <li>Built a first-party ASP.NET Web API on the .NET Framework to provide web services and data access to the front-end</li>
+                <li>Designed a separate web interface, styled with Bootstrap. Users are allowed to create, read, update, and delete
+                  DVD listings, as well as query by title, release year, director name, and rating
+                </li>
+                <li>Implemented stored procedures with ADO.NET SQL parameters to secure data from SQL injection attacks
+                </li>
+                <li>Utilized Dependency Injection to manage and control dependencies of the web application, in order to switch between
+                  a live ADO.NET database connection and a mock repository with sample data to test features</li>
+              </ul>
             </div>
           </div>
 
