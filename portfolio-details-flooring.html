@@ -68,8 +68,8 @@
           </li>
           <li><a href="index.html#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i>
               <span>Resume</span></a></li>
-              <li><a href="index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
-                <span>Developer Portfolio</span></a></li>
+          <li><a href="index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
+              <span>Developer Portfolio</span></a></li>
           <!--<li><a href="index.html#music" class="nav-link scrollto"><i class="bx bxs-playlist"></i><span>My Music</span></a></li>-->
           <!-- <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li> -->
         </ul>
@@ -137,41 +137,25 @@
                 <li><strong>Project date</strong>: January 2021</li>
                 <li><strong>Project URL</strong>: <a
                     href="https://github.com/sidneyraabe/projectSamples">FlooringMastery</a></li>
+                <li><strong>Technologies Used</strong>: </li>
+                <li>
+                  C#<br />
+                  LINQ <br />
+                  NUnit
               </ul>
             </div>
             <div class="portfolio-description">
               <p>
-                This is a console application for a flooring ordering system. Users can add orders by providing
-                information such as name, location, material, and square footage, and receive an estimate for the costs
-                of such order. Upon confirmation, the data is saved and can be displayed, edited, and deleted.
-
+                This is a flooring ordering console app, allowing adding, editing, deleting and cost estimating of orders.
               </p>
               <p>
-                <b>Features:</b>
               <ul>
-                <li>Multiple modes, controlled by app settings key</li>
-                <ul>
-                  <li><code>Prod</code>: written/read from text files</li>
-                  <li><code>Test</code>: temporary in-memory storage</li>
-                </ul>
-
-                <li>N-tier Architecture</li>
-                <ul>
-                  <li>BLL layer</li>
-                  <li>Data layer</li>
-                  <li>Models layer</li>
-                  <li>Tests layer</li>
-                  <li>UI layer</li>
-                </ul>
-                <li>User validation</li>
-                <li>Unit testing (NUnit)</li>
+                <li>Adopted N-tier architecture pattern to organize the responsibilities of the program, dividing the application into clear, 
+                  modular layers: UI, BLL, Data, Models, and Tests</li>
+                <li>Implemented Dependency Injection to switch between text file data and a mock repository during testing via app settings key</li>
+                <li>Conducted unit testing using NUnit to test correct results for valid and invalid user input</li>
               </ul>
               </p>
-              <p><b>Improvements:</b></p>
-              <li>Test repository unfinished</li>
-              <li>Add escape functionality if user wishes to cancel a procedure</li>
-              <li>General UI beautification</li>
-
             </div>
           </div>
 
