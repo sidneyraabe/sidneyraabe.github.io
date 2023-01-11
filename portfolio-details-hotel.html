@@ -68,8 +68,8 @@
           </li>
           <li><a href="index.html#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i>
               <span>Resume</span></a></li>
-              <li><a href="index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
-                <span>Developer Portfolio</span></a></li>
+          <li><a href="index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
+              <span>Developer Portfolio</span></a></li>
           <!--<li><a href="index.html#music" class="nav-link scrollto"><i class="bx bxs-playlist"></i><span>My Music</span></a></li>-->
           <!-- <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li> -->
         </ul>
@@ -123,14 +123,34 @@
                 <li><strong>Category</strong>: Database</li>
                 <li><strong>Project date</strong>: April 2021 - May 2021</li>
                 <li><strong>Project URL</strong>: <a href="https://github.com/sidneyraabe/projectSamples">Hotel</a></li>
+                <li><strong>Technologies Used</strong>: </li>
+                <li>
+                  T-SQL</li>
               </ul>
             </div>
             <div class="portfolio-description">
+              <p>For this project, I was tasked with creating a SQL database to model relationships between raw data
+                about hotel room reservations.
+                The data set included tables of information about rooms, guests, and reservations.
+              </p>
               <p>
-                This is a sort of different project as part of my portfolio. This was an assignment where I was given
-                raw table data of room reservations for a hotel, and then tasked with creating an ERD, creating
-                a database, populating table data, as well as write simple SQL queries for selecting certain table data.
-                The SQL files can be found in my github repository, linked above.
+                To accurately model the relationships, I standardized the data into second normal form, addressing issues of
+                redundant data and inter-column dependencies within table rows.</p>
+              <p>
+                I then engineered an ERD using <a href="https://app.diagrams.net/">Draw.io</a> to model the
+                relationships between the data.
+              </p>
+              <p>
+                From this ERD, I was able to create a functional SQL database that was able to effectively store and
+                retrieve the data needed.
+                The querying functionality provides insights and information that were not possible before when it was
+                presented as raw table data.</p>
+              <p>The most challenging part of this project was modeling many-to-many relationships,
+                such as the relationship between guests and reservations. To solve this, I utilized bridge tables to
+                effectively represent these relationships.
+              </p>
+              <p>This project helped me understand the use and power of bridge tables in effectively modeling less straightforward
+                relationships.
               </p>
             </div>
           </div>
